@@ -21,7 +21,7 @@
 		18D17D79194B022D004969F2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18D17D5B194B022D004969F2 /* UIKit.framework */; };
 		18D17D81194B022D004969F2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18D17D7F194B022D004969F2 /* InfoPlist.strings */; };
 		18D17D83194B022D004969F2 /* GCBounceButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D17D82194B022D004969F2 /* GCBounceButtonTests.m */; };
-		18D17D8F194B0277004969F2 /* GCBounceButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D17D8E194B0277004969F2 /* GCBounceButton.m */; };
+		18D17D92194B33E3004969F2 /* GCBounceButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D17D91194B33E3004969F2 /* GCBounceButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,8 +54,8 @@
 		18D17D7E194B022D004969F2 /* GCBounceButtonTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GCBounceButtonTests-Info.plist"; sourceTree = "<group>"; };
 		18D17D80194B022D004969F2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		18D17D82194B022D004969F2 /* GCBounceButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCBounceButtonTests.m; sourceTree = "<group>"; };
-		18D17D8D194B0277004969F2 /* GCBounceButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCBounceButton.h; sourceTree = "<group>"; };
-		18D17D8E194B0277004969F2 /* GCBounceButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCBounceButton.m; sourceTree = "<group>"; };
+		18D17D90194B33E3004969F2 /* GCBounceButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GCBounceButton.h; path = Classes/GCBounceButton.h; sourceTree = SOURCE_ROOT; };
+		18D17D91194B33E3004969F2 /* GCBounceButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GCBounceButton.m; path = Classes/GCBounceButton.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,8 +160,8 @@
 		18D17D8C194B025A004969F2 /* GCBounceButton */ = {
 			isa = PBXGroup;
 			children = (
-				18D17D8D194B0277004969F2 /* GCBounceButton.h */,
-				18D17D8E194B0277004969F2 /* GCBounceButton.m */,
+				18D17D90194B33E3004969F2 /* GCBounceButton.h */,
+				18D17D91194B33E3004969F2 /* GCBounceButton.m */,
 			);
 			name = GCBounceButton;
 			sourceTree = "<group>";
@@ -264,7 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				18D17D6E194B022D004969F2 /* ViewController.m in Sources */,
-				18D17D8F194B0277004969F2 /* GCBounceButton.m in Sources */,
+				18D17D92194B33E3004969F2 /* GCBounceButton.m in Sources */,
 				18D17D68194B022D004969F2 /* AppDelegate.m in Sources */,
 				18D17D64194B022D004969F2 /* main.m in Sources */,
 			);
