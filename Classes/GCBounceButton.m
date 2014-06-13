@@ -36,6 +36,7 @@
     self.bounceScale = 1.2;
     // Add actions
     [self addObserver:self forKeyPath:@"selected" options:NSKeyValueObservingOptionNew | NSKeyValueObservingOptionOld context:nil];
+    [self addTarget:self action:@selector(bounce) forControlEvents:UIControlEventTouchUpInside];
 }
 
 
@@ -45,7 +46,7 @@
 {
     if ([keyPath isEqualToString:@"selected"] && object == self) {
         [self invalidateIntrinsicContentSize];
-        [self bounce];
+        //[self bounce];
     }
 }
 
