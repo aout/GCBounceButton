@@ -7,8 +7,18 @@
 //
 
 #import "ViewController.h"
+#import "GCBounceButton.h"
 
 @interface ViewController ()
+
+@property (nonatomic, retain) IBOutlet GCBounceButton* favButton;
+@property (nonatomic, retain) IBOutlet GCBounceButton* bellButton;
+
+@property (nonatomic, retain) IBOutlet UILabel* durationLabel;
+@property (nonatomic, retain) IBOutlet UILabel* scaleLabel;
+
+@property (nonatomic, retain) IBOutlet UISlider* durationSlider;
+@property (nonatomic, retain) IBOutlet UISlider* scaleSlider;
 
 @end
 
@@ -26,10 +36,23 @@
     // Dispose of any resources that can be recreated.
 }
 
-- (IBAction)didPressButton:(id)sender
+- (IBAction)didPressButton:(UIButton*)sender
 {
-    UIButton* button = (UIButton*)sender;
-    button.selected = !button.selected;
+    sender.selected = !sender.selected;
+}
+
+- (IBAction)didChangeDurationSlider:(UISlider*)sender
+{
+    self.durationLabel.text = [NSString stringWithFormat:@"%.2fs", sender.value];
+    self.favButton.bounceDuration = sender.value;
+    self.bellButton.bounceDuration = sender.value;
+}
+
+- (IBAction)didChangeScaleSlider:(UISlider*)sender
+{
+    self.scaleLabel.text = [NSString stringWithFormat:@"%.1fx", sender.value];
+    self.favButton.bounceScale = sender.value;
+    self.bellButton.bounceScale = sender.value;
 }
 
 @end
