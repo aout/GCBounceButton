@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
 
   s.homepage     = "https://github.com/aout/GCBounceButton"
 
-  s.license      = "MIT"
+  s.license      = { :type => 'MIT', :file => 'LICENSE' }
 
   s.author             = { "Guillaume CASTELLANA" => "guillaume.castellana@gmail.com" }
   s.social_media_url   = "http://twitter.com/aooout"
