@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>9F9FA890-2FB5-4BC4-A88D-C8B6693AC9C1</string>
+	<key>IDESourceControlProjectName</key>
+	<string>GCBounceButton</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>565DF48B-49C8-4853-9233-141DF15D3514</key>
+		<string>https://github.com/aout/GCBounceButton.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>GCBounceButton/GCBounceButton.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>565DF48B-49C8-4853-9233-141DF15D3514</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/aout/GCBounceButton.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>565DF48B-49C8-4853-9233-141DF15D3514</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>565DF48B-49C8-4853-9233-141DF15D3514</string>
+			<key>IDESourceControlWCCName</key>
+			<string>GCBounceButton</string>
+		</dict>
+	</array>
+</dict>
+</plist>
