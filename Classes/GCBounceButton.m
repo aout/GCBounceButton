@@ -30,6 +30,11 @@
     return self;
 }
 
+- (void) dealloc
+{
+    [self removeObserver:self forKeyPath:@"selected"];
+}
+
 - (void)commonInit
 {
     self.bounceDuration = 0.2;
